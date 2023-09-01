@@ -1,0 +1,12 @@
+.downloadImg {
+  display: flex;
+}
+.downloadImg > img {
+  border: 2px solid #232a4e;
+  border-radius: 13px;
+  height: 3rem;
+  width: 10rem;
+}
+.downloadImg > img:nth-of-type(1) {
+  margin-right: 2rem;
+}

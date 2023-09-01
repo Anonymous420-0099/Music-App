@@ -1,0 +1,32 @@
+.feature {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 12px;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+.icon > img {
+  width: 4rem;
+  height: 4rem;
+  background: #081730;
+  padding: 10px;
+  border-radius: 10px;
+}
+.feature > span:nth-of-type(1) {
+  margin-top: 2rem;
+}
+.feature > span:nth-of-type(2) {
+  color: #707070;
+  margin-top: 1rem;
+}
+.feature > span:nth-of-type(3) {
+  color: #e600ff;
+  margin-top: 3rem;
+  text-decoration: underline;
+}
+.feature > span:nth-of-type(3):hover {
+  cursor: pointer;
+}

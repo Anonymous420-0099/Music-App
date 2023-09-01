@@ -1,0 +1,81 @@
+.Mplayer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border: 2px solid black;
+  margin-top: 25px;
+  background: #23244e;
+  padding: 0 5px;
+  border-radius: 15px;
+}
+.upperSide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+.profile {
+  display: flex;
+}
+.profile > img {
+  width: 2.5rem;
+  border: 2px solid white;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.details {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+}
+.details > :nth-child(1) {
+  font-size: 1rem;
+}
+.details > :nth-child(2) {
+  font-weight: 500;
+  color: gray;
+  text-align: start;
+  font-size: small;
+}
+.dots img {
+  height: 1rem;
+  width: 0.5rem;
+}
+.lowerSide {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.track {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  font-size: small;
+  font-weight: 500;
+}
+.track img {
+  width: 17rem;
+}
+.controls {
+  margin: 0 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.controls svg {
+  fill: gray;
+  font-size: 1rem;
+}
+.controls img {
+  border-radius: 50%;
+  border: 2px solid black;
+  height: 2rem;
+  width: 2rem;
+}
